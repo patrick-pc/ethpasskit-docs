@@ -1,12 +1,15 @@
 export default {
-  github: 'https://github.com/shuding/nextra',
-  docsRepositoryBase: 'https://github.com/shuding/nextra/blob/master',
-  titleSuffix: ' – Nextra',
+  github: 'https://github.com/web3slinger/ethpasskit-docs',
+  docsRepositoryBase:
+    'https://github.com/web3slinger/ethpasskit-docs/blob/master',
+  titleSuffix: ' – ethpasskit',
   logo: (
     <>
-      <span className="mr-2 font-extrabold hidden md:inline">Nextra</span>
-      <span className="text-gray-600 font-normal hidden md:inline">
-        The Next.js Static Site Generator
+      <span className="mr-2 font-semibold hidden md:inline">
+        <span className="text-gray-600">eth</span>passkit
+      </span>
+      <span className="text-gray-600 text-sm border rounded hidden md:inline py-.5 px-3">
+        Beta
       </span>
     </>
   ),
@@ -16,14 +19,23 @@ export default {
       <meta name="theme-color" content="#ffffff" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta httpEquiv="Content-Language" content="en" />
-      <meta name="description" content="Nextra: the Next.js site builder" />
-      <meta name="og:description" content="Nextra: the Next.js site builder" />
+      <meta name="description" content="ethpasskit react component library" />
+      <meta
+        name="og:description"
+        content="ethpasskit react component library"
+      />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:image" content="https://nextra.vercel.app/og.png" />
-      <meta name="twitter:site:domain" content="nextra.vercel.app" />
-      <meta name="twitter:url" content="https://nextra.vercel.app" />
-      <meta name="og:title" content="Nextra: Next.js static site generator" />
-      <meta name="og:image" content="https://nextra.vercel.app/og.png" />
+      <meta
+        name="twitter:image"
+        content="https://ethpasskit-docs.vercel.app/og.png"
+      />
+      <meta name="twitter:site:domain" content="ethpasskit-docs.vercel.app" />
+      <meta name="twitter:url" content="https://ethpasskit-docs.vercel.app" />
+      <meta name="og:title" content="ethpasskit" />
+      <meta
+        name="og:image"
+        content="https://ethpasskit-docs.vercel.app/og.png"
+      />
       <meta name="apple-mobile-web-app-title" content="Nextra" />
       <link
         rel="apple-touch-icon"
@@ -62,6 +74,6 @@ export default {
   nextLinks: true,
   footer: true,
   footerEditLink: 'Edit this page on GitHub',
-  footerText: <>MIT {new Date().getFullYear()} © Nextra.</>,
+  footerText: <>MIT {new Date().getFullYear()} © ethpasskit</>,
   unstable_faviconGlyph: '👋',
 }

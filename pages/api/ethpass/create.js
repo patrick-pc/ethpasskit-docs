@@ -1,44 +1,3 @@
-# Getting Started
-
-## Installation
-
-Inside your React project directory, run the following:
-
-```bash
-yarn add @web3slinger/ethpasskit
-```
-
-Or with npm:
-
-```bash
-npm install @web3slinger/ethpasskit
-```
-
-## Quick Start
-
-1. Import
-
-```jsx
-// index.jsx
-import { GeneratePass } from '@web3slinger/ethpasskit'
-
-const Home = () => {
-  return (
-    <div>
-      <GeneratePass
-        apiUrl="/api/ethpass/create"
-        contractAddress="0xb52424b0dedbc8c26459b571c8ca8a844ec3fb07"
-        chainId={137}
-      />
-    </div>
-  )
-}
-```
-
-2. Create ethpass api route
-
-```jsx
-// api/ethpass/create.js
 export default async function handler(req, res) {
   switch (req.method) {
     case 'POST':
@@ -147,6 +106,3 @@ export default async function handler(req, res) {
       break
   }
 }
-```
-
-Click [here](https://www.ethpass.xyz/) to learn more about ethpass.
