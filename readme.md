@@ -1,7 +1,15 @@
-# [ethpasskit](https://ethpasskit.vercel.app)
+# [EthpassKit](https://ethpasskit.vercel.app)
 
-**ethpasskit** is a [React](https://reactjs.org/) component library.
+EthpassKit is a React component library for generating mobile NFT passes using [ethpass](https://ethpass.xyz/) API.
 
----
+## Features
 
-Created by [@web3slinger](https://github.com/web3slinger).
+- Simple UI/UX - Attractive UI/UX for generating mobile NFT passes.
+- Responsive Design - Tailored experience across devices.
+- Industry Standard - Uses top libraries such as ethers.
+- TypeScript Ready - Get types straight out of the box.
+
+
+## Documentation
+
+You can find the full documentation [here](https://ethpasskit.vercel.app/Docs/getting-started)
