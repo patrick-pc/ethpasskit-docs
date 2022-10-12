@@ -9,19 +9,18 @@ const Vercel = ({ height = 20 }) => (
 
 export default {
   project: { link: 'https://github.com/web3slinger/ethpasskit-docs' },
-  docsRepositoryBase:
-    'https://github.com/web3slinger/ethpasskit-docs/blob/master/',
+  docsRepositoryBase: 'https://github.com/web3slinger/ethpasskit-docs/blob/master/',
   editLink: { text: 'Edit this page on GitHub →' },
   titleSuffix: ' – ethpasskit',
   toc: { float: true },
   feedback: { labels: 'feedback' },
   logo: (
     <>
-      <span className="text-xl font-bold hidden md:inline mr-2">
+      <span className="text-2xl font-bold hidden md:inline mr-2">
         <span className="text-indigo-600">eth</span>passkit
       </span>
       <span className="text-xs text-gray-500 font-medium border rounded hidden md:inline py-.5 px-2">
-        Beta
+        Alpha
       </span>
     </>
   ),
@@ -34,10 +33,7 @@ export default {
 
       {/* SEO */}
       <meta name="description" content="EthpassKit react component library" />
-      <meta
-        name="og:description"
-        content="EthpassKit react component library"
-      />
+      <meta name="og:description" content="EthpassKit react component library" />
       <meta name="og:title" content="ethpasskit" />
       <meta name="twitter:card" content="summary_large_image" />
 
