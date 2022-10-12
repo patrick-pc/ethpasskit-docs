@@ -657,10 +657,10 @@
   resolved "https://registry.yarnpkg.com/@uiball/loaders/-/loaders-1.2.6.tgz#bd748a4538e16897daef6dec13dd4141efabd5c8"
   integrity sha512-Db3be5pG9ciZa1Rxr6Iwv8bIwVP+g00m3GYQFsu3j7B9T16MpHhnGXLksuNtKlePdP3FCTFGpFrXbJz4GG/OOg==
 
-"@web3slinger/ethpasskit@^0.1.8":
-  version "0.1.8"
-  resolved "https://npm.pkg.github.com/download/@web3slinger/ethpasskit/0.1.8/757fa000453a7a2aaedf3dfc7317b410caaacc7e#757fa000453a7a2aaedf3dfc7317b410caaacc7e"
-  integrity sha512-jo8Bsrtu9M5jgkjLMAxWYgKsRAH/y4jtVhMRi8WpwHpM1/NQ45SoTCALJRhNVbPe2W+wyXJlr2e5KcaKAXaIeQ==
+"@web3slinger/ethpasskit@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@web3slinger/ethpasskit/-/ethpasskit-0.2.0.tgz#6b9616a7f8108ad1c0f91549f8480adbb8715aca"
+  integrity sha512-Cc8zvHhaupTs5dLaJHZzRiUHAVuFfmQtVsDk67A9O27YTcmydM1rnF7tlahHt+JcpfHVrL/4TYWONS5tT6w52A==
   dependencies:
     "@headlessui/react" "^1.7.3"
     "@uiball/loaders" "^1.2.6"
