@@ -26,7 +26,7 @@ export const GeneratePassForm = () => {
         <GeneratePass
           apiUrl="/api/ethpass/create"
           contractAddress={contractAddress}
-          chainId={chainId}
+          chainId={parseInt(chainId)}
         />
       </div>
       <div className="flex flex-auto flex-col text-sm font-mono bg-primary-700/5 text-black dark:bg-primary-300/10 dark:text-white contrast-more:contrast-150 rounded-xl p-6">
