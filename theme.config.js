@@ -10,14 +10,16 @@ const Vercel = ({ height = 20 }) => (
 export default {
   project: { link: 'https://github.com/web3slinger/ethpasskit-docs' },
   docsRepositoryBase: 'https://github.com/web3slinger/ethpasskit-docs/blob/master/',
-  editLink: { text: 'Edit this page on GitHub →' },
   titleSuffix: ' – ethpasskit',
   toc: { float: true },
-  feedback: { labels: 'feedback' },
+  feedback: { content: 'Question? Give us feedback →' },
+  editLink: { text: 'Edit this page on GitHub →' },
   logo: (
     <>
       <span className="text-2xl font-bold hidden md:inline mr-2">
-        <span className="text-indigo-600">eth</span>passkit
+        <span className="text-indigo-600">eth</span>
+        <span className="text-black dark:text-white">pass</span>
+        <span className="text-gray-500">kit</span>
       </span>
       <span className="text-xs text-gray-500 font-medium border rounded hidden md:inline py-.5 px-2">
         Alpha
@@ -27,13 +29,19 @@ export default {
   head: (
     <>
       {/* General */}
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
       <meta httpEquiv="Content-Language" content="en" />
       <title>ethpasskit</title>
 
       {/* SEO */}
-      <meta name="description" content="EthpassKit react component library" />
-      <meta name="og:description" content="EthpassKit react component library" />
+      <meta
+        name="description"
+        content="React component library for generating mobile NFT passes to use with ethpass API."
+      />
+      <meta
+        name="og:description"
+        content="React component library for generating mobile NFT passes to use with ethpass API."
+      />
       <meta name="og:title" content="ethpasskit" />
       <meta name="twitter:card" content="summary_large_image" />
 

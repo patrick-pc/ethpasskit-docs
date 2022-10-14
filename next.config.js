@@ -10,4 +10,13 @@ module.exports = withNextra({
     locales: ['en-US'],
     defaultLocale: 'en-US',
   },
+  redirects: () => {
+    return [
+      {
+        source: '/docs',
+        destination: '/docs/getting-started',
+        statusCode: 301,
+      },
+    ]
+  },
 })
