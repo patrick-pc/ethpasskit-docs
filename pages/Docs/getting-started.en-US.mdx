@@ -20,7 +20,7 @@ npm install @web3slinger/ethpasskit
 
 ## Quick Start
 
-1. Import
+1. Import ethpasskit and configure the required props.
 
 ```jsx
 // index.jsx
@@ -39,21 +39,14 @@ const Home = () => {
 }
 ```
 
-2. Create ethpass api route
+2. Create ethpass API endpoint.
 
 ```jsx
 // api/ethpass/create.js
 export default async function handler(req, res) {
   switch (req.method) {
     case 'POST':
-      const {
-        chainId,
-        contractAddress,
-        platform,
-        signature,
-        signatureMessage,
-        tokenId,
-      } = req.body
+      const { chainId, contractAddress, platform, signature, signatureMessage, tokenId } = req.body
 
       try {
         // Customize Pass
@@ -79,10 +72,7 @@ export default async function handler(req, res) {
               {
                 key: 'secondary1',
                 label: 'CONTRACT ADDRESS',
-                value: `${contractAddress.slice(
-                  0,
-                  6
-                )}...${contractAddress.slice(-4)}`,
+                value: `${contractAddress.slice(0, 6)}...${contractAddress.slice(-4)}`,
                 textAlignment: 'PKTextAlignmentLeft',
               },
               {
@@ -154,6 +144,6 @@ export default async function handler(req, res) {
 ```
 
 <div className="bg-orange-50 border border-orange-100 text-amber-700 rounded-xl w-full p-4">
-  💡 Please note that you need to get an ethpass API key. Click
-  [here](https://www.ethpass.xyz/) to learn more about ethpass.
+  💡 Please note that you need to get an ethpass API key. Click [here](https://www.ethpass.xyz/) to
+  learn more about ethpass.
 </div>
